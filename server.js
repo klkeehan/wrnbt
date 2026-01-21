@@ -4,7 +4,7 @@ const tmi = require('tmi.js');
 
 const client = new tmi.Client({
     options: { debug: true },
-	channels: [ 'suzyqpid', 'liftlull', 'wrnbt', 'Aimizu_' ],
+	channels: [ 'suzyqpid', 'wrnbt', 'Aimizu_' ],
     identity: {
         username: process.env.TWITCH_BOT_USERNAME,
         password: process.env.TWITCH_OAUTH_TOKEN
